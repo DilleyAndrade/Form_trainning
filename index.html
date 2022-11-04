@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Ficha de cadastro</title>
+</head>
+<body>
+<div class="cadastro">
+    <form>
+        <div class="fichacadastro">
+            <div class="comentario">
+                <h3>Deixe uma resposta</h3>
+                <p>O seu endereço de e-mail não será publicado. Campos obrigatórios são marcados com *</p>
+            </div>
+            <br>
+            <div class="comentario">
+                <label for="coment">Comentário<label><br>
+                <textarea id=" coment" name="caixadecomentario"></textarea>
+            </div>
+            <div class="preenchiveis">
+                <div class="nome">
+                    <label for="name">Nome *</label><br>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="emails">
+                    <label for="email">E-mail *</label><br>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="sites">
+                    <label for="site">Site *</label><br>
+                    <input type="url" id="site" required>
+                </div>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="salvardados"><br>
+                <label for="salvardados">Salvar meus dados<br> neste navegador<br> para a próxima vez<br> que eu comentar.</label>
+            </div>
+            <div class="botao">
+                <input type="submit" id="publicar" value="Publicar comentário">
+            </div>
+        </div>
+</div>   
+</body>
+</html>

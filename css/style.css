@@ -1,0 +1,53 @@
+.cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.fichacadastro{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;  
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.fichacadastro{
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao input{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.botao input:hover{
+    background-color: rgb(223, 0, 0);
+    color: white;
+    padding: 15px;
+    border: 0px;
+}
+
+textarea{
+    margin-bottom: 35px;
+}
+.comentario textarea{
+    height: 150px;
+    width: 900px;
+}
+
+.preenchiveis input{
+    height: 30px;
+    width: 900px;
+    margin-bottom: 35px;
+}
+
+.botao input{
+    margin-top: 35px;
+}
